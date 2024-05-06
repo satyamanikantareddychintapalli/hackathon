@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Churn Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: beige;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #5464d8;
+            border-radius: 5px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Employee Churn Prediction Result</h1>
+        <p>The prediction result is: <span id="prediction_result">{{ prediction }}</span></p>
+        
+        <p>Satisfaction Rating: <span id="satisfaction_rating">{{ satisfaction_rating }}</span></p>
+        <p>Salary: <span id="salary">{{ salary }}</span></p>
+        <p>Tenure: <span id="tenure">{{ tenure }}</span></p>
+        
+        <p>
+            <button onclick="window.location.href='/'">Back to Prediction Form</button>
+
+
+        </p>
+    </div>
+</body>
+</html>
